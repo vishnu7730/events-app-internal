@@ -163,7 +163,7 @@ async function changeLikes(id, increment, db = mariadb) {
 }
 
 async function addLike(id) {
-    console.log("adding like to event = " + id);
+    console.log("adding like to event with id= " + id);
     return changeLikes(id, true);
 };
 
